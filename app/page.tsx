@@ -8,67 +8,55 @@ import FAQSection from "./components/FAQSection"
 import ContactForm from "./components/ContactForm"
  
 const plan = {
-  "businessName": "Harbour Dental Care",
-  "location": "Perth",
-  "badge": "Premium Dental Clinic in Perth",
-  "heroTitle": "Modern Dental Care for Confident Smiles",
-  "heroSubtitle": "Harbour Dental Care delivers premium family and cosmetic dentistry in Perth with a calm, modern clinic environment, advanced technology, and a patient-first approach designed for comfort at every visit.",
-  "primaryCta": "Book an Appointment",
-  "secondaryCta": "View Our Services",
-  "phone": "(08) 6245 2800",
-  "email": "hello@harbourdentalcare.com.au",
+  "businessName": "Hassy’s Mowing",
+  "location": "Perth, WA",
+  "badge": "Premium Gardening & Lawn Care in Perth",
+  "heroTitle": "Premium Lawn & Garden Care With A Calm, Professional Touch",
+  "heroSubtitle": "Hassy’s Mowing delivers high-end mowing and hedge trimming services across Perth with reliable scheduling, modern equipment, and a clean, trustworthy experience from first enquiry to final finish.",
+  "primaryCta": "Book a Free Quote",
+  "secondaryCta": "Request an Emergency Cut",
+  "phone": "(08) 9000 1234",
+  "email": "hello@hassysmowing.com.au",
   "services": [
     {
-      "title": "General Dentistry",
-      "description": "Comprehensive everyday dental care including check-ups, cleans, fillings, and preventive treatments to keep your teeth and gums healthy."
+      "title": "General Mowing",
+      "description": "Keep your lawn neat, healthy, and consistently well-presented with professional mowing tailored to residential and small commercial properties. We focus on clean lines, reliable maintenance, and a polished finish that elevates the look of your outdoor space."
     },
     {
-      "title": "Cosmetic Dentistry",
-      "description": "Enhance your smile with whitening, veneers, and tailored cosmetic treatments designed to deliver natural-looking, confident results."
+      "title": "Hedge Trimming",
+      "description": "Maintain tidy, structured, and attractive hedges with precise trimming that improves curb appeal and supports healthy growth. We shape and refine hedges carefully to create a sharp, premium look without overcutting."
     },
     {
-      "title": "Family Dental Care",
-      "description": "Gentle dental services for children, teens, adults, and seniors in a welcoming clinic that makes ongoing care simple for the whole family."
-    },
-    {
-      "title": "Emergency Dental",
-      "description": "Fast support for toothaches, chipped teeth, swelling, and urgent dental concerns with prompt appointments and compassionate care."
-    },
-    {
-      "title": "Dental Implants",
-      "description": "Restore missing teeth with durable, functional implant solutions that help improve bite, appearance, and long-term oral health."
-    },
-    {
-      "title": "Invisalign & Smile Alignment",
-      "description": "Discreet orthodontic treatment using clear aligners to straighten teeth comfortably while fitting into your daily lifestyle."
+      "title": "Emergency Cuts",
+      "description": "Need urgent lawn attention before an inspection, event, rental handover, or last-minute visit? Our emergency cut service is designed for fast-response mowing and garden tidying to quickly restore a neat, presentable appearance."
     }
   ],
   "trustPoints": [
-    "Modern Perth clinic with advanced dental technology and a calming patient experience",
-    "Personalised treatment plans for preventive, family, and cosmetic dental needs",
-    "Friendly, highly trained team focused on comfort, clarity, and long-term oral health"
+    "Licensed and fully insured for peace of mind",
+    "Modern, well-maintained equipment for clean, efficient results",
+    "Years of hands-on experience caring for Perth gardens"
   ],
   "faqs": [
     {
-      "question": "Do you accept new patients?",
-      "answer": "Yes, Harbour Dental Care welcomes new patients of all ages and offers flexible appointment options for individuals and families across Perth."
+      "question": "What areas of Perth do you service?",
+      "answer": "Hassy’s Mowing services many suburbs across Perth. Contact us with your location and we’ll confirm availability and the earliest booking time."
     },
     {
-      "question": "What services do you provide?",
-      "answer": "We provide general, family, cosmetic, emergency, restorative, and smile alignment treatments tailored to each patient's goals and oral health needs."
+      "question": "Do you offer one-off and regular mowing services?",
+      "answer": "Yes. We provide both one-time lawn services and ongoing maintenance plans depending on your property, schedule, and budget."
     },
     {
-      "question": "Do you offer emergency dental appointments?",
-      "answer": "Yes, we aim to provide prompt care for urgent dental issues such as tooth pain, broken teeth, swelling, and other unexpected concerns."
+      "question": "What is included in an emergency cut?",
+      "answer": "Emergency cuts typically include urgent mowing and a general tidy-up to improve the appearance of your lawn and garden quickly. We’ll confirm the scope based on your needs and timing."
     },
     {
-      "question": "Is your clinic suitable for nervous patients?",
-      "answer": "Absolutely. Our team focuses on clear communication, gentle care, and a calm modern setting to help anxious patients feel more at ease."
+      "question": "Do I need to be home during the service?",
+      "answer": "Not always. As long as we have clear access to the areas being serviced and any required instructions in advance, we can often complete the job while you’re away."
     }
   ],
   "aboutParagraphs": [
-    "Harbour Dental Care is a modern premium dental clinic in Perth created for patients who value expert care, comfort, and a refined healthcare experience. Our clinic combines contemporary treatment spaces, advanced equipment, and a warm professional team to make every visit feel calm, clear, and reassuring.",
-    "We care for individuals and families across every stage of life, offering preventive, restorative, and cosmetic dentistry with a personalised approach. From your first consultation to your ongoing care plan, our focus is on building trust, improving oral health, and helping you smile with confidence."
+    "Hassy’s Mowing is a premium gardening business based in Perth, built around reliability, presentation, and a calm, professional customer experience. The brand is designed to feel more like a trusted healthcare provider than a typical trade service, with clear communication, attention to detail, and consistent results that give clients confidence in the care of their outdoor spaces.",
+    "The business is owned and operated by Hassan, who takes pride in delivering neat, high-quality work across every property. From routine general mowing to precise hedge trimming and urgent emergency cuts, Hassan focuses on jobs that help homes and small commercial spaces look clean, maintained, and welcoming. The goal is simple: make premium lawn care feel easy, dependable, and genuinely professional."
   ]
 }
  

@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import "./globals.css"
  
 export const metadata: Metadata = {
-  title: "Harbour Dental Care",
-  description: "Harbour Dental Care delivers premium family and cosmetic dentistry in Perth with a calm, modern clinic environment, advanced technology, and a patient-first approach designed for comfort at every visit."
+  title: "Hassy’s Mowing",
+  description: "Hassy’s Mowing delivers high-end mowing and hedge trimming services across Perth with reliable scheduling, modern equipment, and a clean, trustworthy experience from first enquiry to final finish."
 }
  
 export default function RootLayout({
