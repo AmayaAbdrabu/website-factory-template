@@ -3,7 +3,7 @@ import "./globals.css"
  
 export const metadata: Metadata = {
   title: "Harbour Dental Care",
-  description: "Harbour Dental Care provides premium dental treatment in Perth with a calm, professional approach, experienced clinicians, and modern technology for patients of all ages."
+  description: "Harbour Dental Care delivers premium family and cosmetic dentistry in Perth with a calm, modern clinic environment, advanced technology, and a patient-first approach designed for comfort at every visit."
 }
  
 export default function RootLayout({

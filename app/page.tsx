@@ -11,64 +11,64 @@ const plan = {
   "businessName": "Harbour Dental Care",
   "location": "Perth",
   "badge": "Premium Dental Clinic in Perth",
-  "heroTitle": "Modern, Gentle Dental Care Designed Around Your Smile",
-  "heroSubtitle": "Harbour Dental Care provides premium dental treatment in Perth with a calm, professional approach, experienced clinicians, and modern technology for patients of all ages.",
+  "heroTitle": "Modern Dental Care for Confident Smiles",
+  "heroSubtitle": "Harbour Dental Care delivers premium family and cosmetic dentistry in Perth with a calm, modern clinic environment, advanced technology, and a patient-first approach designed for comfort at every visit.",
   "primaryCta": "Book an Appointment",
-  "secondaryCta": "Contact Our Clinic",
-  "phone": "(08) 9123 4567",
+  "secondaryCta": "View Our Services",
+  "phone": "(08) 6245 2800",
   "email": "hello@harbourdentalcare.com.au",
   "services": [
     {
       "title": "General Dentistry",
-      "description": "Comprehensive everyday dental care including examinations, scale and cleans, fillings, gum care, and preventative treatment to help maintain long-term oral health."
-    },
-    {
-      "title": "Children’s Dentistry",
-      "description": "Gentle dental care for children in a calm and welcoming environment, focused on healthy development, prevention, education, and positive early dental experiences."
+      "description": "Comprehensive everyday dental care including check-ups, cleans, fillings, and preventive treatments to keep your teeth and gums healthy."
     },
     {
       "title": "Cosmetic Dentistry",
-      "description": "Enhance the appearance of your smile with tailored cosmetic treatments designed to improve colour, shape, balance, and overall confidence."
+      "description": "Enhance your smile with whitening, veneers, and tailored cosmetic treatments designed to deliver natural-looking, confident results."
     },
     {
-      "title": "Teeth Whitening",
-      "description": "Professional teeth whitening treatments that safely lift stains and brighten your smile with effective, clinically guided care."
+      "title": "Family Dental Care",
+      "description": "Gentle dental services for children, teens, adults, and seniors in a welcoming clinic that makes ongoing care simple for the whole family."
     },
     {
-      "title": "Emergency Dental Care",
-      "description": "Prompt assessment and urgent treatment for toothaches, broken teeth, swelling, infections, lost fillings, and other unexpected dental issues."
+      "title": "Emergency Dental",
+      "description": "Fast support for toothaches, chipped teeth, swelling, and urgent dental concerns with prompt appointments and compassionate care."
     },
     {
       "title": "Dental Implants",
-      "description": "Advanced tooth replacement solutions that restore function, comfort, and aesthetics with carefully planned dental implant treatment."
+      "description": "Restore missing teeth with durable, functional implant solutions that help improve bite, appearance, and long-term oral health."
+    },
+    {
+      "title": "Invisalign & Smile Alignment",
+      "description": "Discreet orthodontic treatment using clear aligners to straighten teeth comfortably while fitting into your daily lifestyle."
     }
   ],
   "trustPoints": [
-    "Licensed dentists focused on patient-first care",
-    "Modern equipment and contemporary treatment techniques",
-    "Years of clinical experience serving Perth families"
+    "Modern Perth clinic with advanced dental technology and a calming patient experience",
+    "Personalised treatment plans for preventive, family, and cosmetic dental needs",
+    "Friendly, highly trained team focused on comfort, clarity, and long-term oral health"
   ],
   "faqs": [
     {
       "question": "Do you accept new patients?",
-      "answer": "Yes, Harbour Dental Care welcomes new patients of all ages and offers comprehensive care for individuals, couples, and families."
+      "answer": "Yes, Harbour Dental Care welcomes new patients of all ages and offers flexible appointment options for individuals and families across Perth."
     },
     {
-      "question": "What should I do if I have a dental emergency?",
-      "answer": "If you are experiencing pain, swelling, trauma, or a broken tooth, contact our clinic as soon as possible so we can arrange urgent care."
+      "question": "What services do you provide?",
+      "answer": "We provide general, family, cosmetic, emergency, restorative, and smile alignment treatments tailored to each patient's goals and oral health needs."
     },
     {
-      "question": "Do you provide dental care for children?",
-      "answer": "Yes, we offer children’s dentistry with a gentle, reassuring approach that helps young patients feel comfortable and supported."
+      "question": "Do you offer emergency dental appointments?",
+      "answer": "Yes, we aim to provide prompt care for urgent dental issues such as tooth pain, broken teeth, swelling, and other unexpected concerns."
     },
     {
-      "question": "Are cosmetic and whitening treatments available?",
-      "answer": "Yes, we provide cosmetic dentistry and professional teeth whitening options tailored to your goals and dental condition."
+      "question": "Is your clinic suitable for nervous patients?",
+      "answer": "Absolutely. Our team focuses on clear communication, gentle care, and a calm modern setting to help anxious patients feel more at ease."
     }
   ],
   "aboutParagraphs": [
-    "Harbour Dental Care is a premium dental clinic in Perth created for patients who value professionalism, comfort, and high-quality care. Our clinic combines a clean, modern environment with a calm and trustworthy healthcare experience, helping patients feel at ease from the moment they arrive.",
-    "Our dentists are committed to delivering personalised treatment using modern equipment, clear communication, and a preventative approach to long-term oral health. From routine family check-ups to cosmetic improvements, emergency appointments, and advanced restorative care, we focus on achieving healthy, confident smiles with exceptional attention to detail."
+    "Harbour Dental Care is a modern premium dental clinic in Perth created for patients who value expert care, comfort, and a refined healthcare experience. Our clinic combines contemporary treatment spaces, advanced equipment, and a warm professional team to make every visit feel calm, clear, and reassuring.",
+    "We care for individuals and families across every stage of life, offering preventive, restorative, and cosmetic dentistry with a personalised approach. From your first consultation to your ongoing care plan, our focus is on building trust, improving oral health, and helping you smile with confidence."
   ]
 }
  
