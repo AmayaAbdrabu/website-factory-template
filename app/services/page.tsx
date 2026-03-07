@@ -1,11 +1,8 @@
-import SiteHeader from "./components/SiteHeader"
-import SiteFooter from "./components/SiteFooter"
-import SectionHeading from "./components/SectionHeading"
-import HeroSection from "./components/HeroSection"
-import ServicesGrid from "./components/ServicesGrid"
-import TrustGrid from "./components/TrustGrid"
-import FAQSection from "./components/FAQSection"
-import ContactForm from "./components/ContactForm"
+import SiteHeader from "../components/SiteHeader"
+import SiteFooter from "../components/SiteFooter"
+import SectionHeading from "../components/SectionHeading"
+import ServicesGrid from "../components/ServicesGrid"
+import ContactForm from "../components/ContactForm"
  
 const plan = {
   "businessName": "Harbour Dental Care",
@@ -72,26 +69,16 @@ const plan = {
   ]
 }
  
-export default function Home() {
+export default function ServicesPage() {
   return (
     <main className="bg-white text-slate-900">
       <SiteHeader businessName={plan.businessName} />
  
-      <HeroSection
-        badge={plan.badge}
-        title={plan.heroTitle}
-        subtitle={plan.heroSubtitle}
-        primaryCta={plan.primaryCta}
-        secondaryCta={plan.secondaryCta}
-        phone={plan.phone}
-        services={plan.services}
-      />
- 
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
-          eyebrow="Our services"
-          title={`Professional services from ${plan.businessName}`}
-          subtitle={`Trusted support across ${plan.location} with a strong focus on quality, communication, and fast turnaround.`}
+          eyebrow="Services"
+          title={`Services from ${plan.businessName}`}
+          subtitle={`High-quality support across ${plan.location}, tailored to local clients and business needs.`}
         />
         <div className="mt-10">
           <ServicesGrid services={plan.services} />
@@ -100,33 +87,9 @@ export default function Home() {
  
       <section className="bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <SectionHeading
-            eyebrow="Why choose us"
-            title="Built on trust, quality, and consistency"
-            subtitle="We focus on clear communication, practical solutions, and a professional client experience."
-          />
-          <div className="mt-10">
-            <TrustGrid points={plan.trustPoints} />
-          </div>
-        </div>
-      </section>
- 
-      <section className="mx-auto max-w-6xl px-6 py-20">
-        <SectionHeading
-          eyebrow="FAQs"
-          title="Common questions"
-          subtitle="Helpful answers to the questions clients often ask before getting started."
-        />
-        <div className="mt-10">
-          <FAQSection faqs={plan.faqs} />
-        </div>
-      </section>
- 
-      <section className="bg-slate-50">
-        <div className="mx-auto max-w-6xl px-6 py-20">
           <ContactForm
-            title={`Get in touch with ${plan.businessName}`}
-            subtitle={`Tell us what you need and our team in ${plan.location} will get back to you shortly.`}
+            title="Request a quote"
+            subtitle="Tell us what service you need and we’ll get back to you with the next steps."
             phone={plan.phone}
             email={plan.email}
           />

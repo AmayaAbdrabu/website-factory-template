@@ -1,11 +1,7 @@
-import SiteHeader from "./components/SiteHeader"
-import SiteFooter from "./components/SiteFooter"
-import SectionHeading from "./components/SectionHeading"
-import HeroSection from "./components/HeroSection"
-import ServicesGrid from "./components/ServicesGrid"
-import TrustGrid from "./components/TrustGrid"
-import FAQSection from "./components/FAQSection"
-import ContactForm from "./components/ContactForm"
+import SiteHeader from "../components/SiteHeader"
+import SiteFooter from "../components/SiteFooter"
+import SectionHeading from "../components/SectionHeading"
+import TrustGrid from "../components/TrustGrid"
  
 const plan = {
   "businessName": "Harbour Dental Care",
@@ -72,64 +68,46 @@ const plan = {
   ]
 }
  
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className="bg-white text-slate-900">
       <SiteHeader businessName={plan.businessName} />
  
-      <HeroSection
-        badge={plan.badge}
-        title={plan.heroTitle}
-        subtitle={plan.heroSubtitle}
-        primaryCta={plan.primaryCta}
-        secondaryCta={plan.secondaryCta}
-        phone={plan.phone}
-        services={plan.services}
-      />
- 
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
-          eyebrow="Our services"
-          title={`Professional services from ${plan.businessName}`}
-          subtitle={`Trusted support across ${plan.location} with a strong focus on quality, communication, and fast turnaround.`}
+          eyebrow="About us"
+          title={`About ${plan.businessName}`}
+          subtitle={`Professional service in ${plan.location} with a focus on trust, quality, and long-term client relationships.`}
         />
-        <div className="mt-10">
-          <ServicesGrid services={plan.services} />
+ 
+        <div className="mt-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="space-y-6 text-lg leading-8 text-slate-600">
+            {plan.aboutParagraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+ 
+          <div className="rounded-2xl border bg-slate-50 p-8">
+            <h3 className="text-2xl font-bold text-slate-900">Quick contact</h3>
+            <div className="mt-6 space-y-3 text-slate-700">
+              <p><span className="font-semibold">Phone:</span> {plan.phone}</p>
+              <p><span className="font-semibold">Email:</span> {plan.email}</p>
+              <p><span className="font-semibold">Location:</span> {plan.location}</p>
+            </div>
+          </div>
         </div>
       </section>
  
       <section className="bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <SectionHeading
-            eyebrow="Why choose us"
-            title="Built on trust, quality, and consistency"
-            subtitle="We focus on clear communication, practical solutions, and a professional client experience."
+            eyebrow="Why clients choose us"
+            title="A professional service experience from first contact to completion"
+            subtitle="We keep things clear, responsive, and results-focused."
           />
           <div className="mt-10">
             <TrustGrid points={plan.trustPoints} />
           </div>
-        </div>
-      </section>
- 
-      <section className="mx-auto max-w-6xl px-6 py-20">
-        <SectionHeading
-          eyebrow="FAQs"
-          title="Common questions"
-          subtitle="Helpful answers to the questions clients often ask before getting started."
-        />
-        <div className="mt-10">
-          <FAQSection faqs={plan.faqs} />
-        </div>
-      </section>
- 
-      <section className="bg-slate-50">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <ContactForm
-            title={`Get in touch with ${plan.businessName}`}
-            subtitle={`Tell us what you need and our team in ${plan.location} will get back to you shortly.`}
-            phone={plan.phone}
-            email={plan.email}
-          />
         </div>
       </section>
  
