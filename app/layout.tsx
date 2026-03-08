@@ -3,7 +3,7 @@ import "./globals.css"
  
 export const metadata: Metadata = {
   title: "Atlas AI Systems",
-  description: "Atlas AI Systems helps ambitious companies streamline operations, reduce manual workload, and scale faster with tailored AI automation, intelligent workflows, and high-performance digital systems."
+  description: "Atlas AI Systems helps Perth businesses automate repetitive work, improve response times, and build smarter operations with practical AI solutions tailored to real business outcomes."
 }
  
 export default function RootLayout({
