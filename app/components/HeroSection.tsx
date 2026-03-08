@@ -6,6 +6,7 @@ type HeroProps = {
   secondaryCta: string
   phone: string
   services: { title: string; description: string }[]
+  heroImage: string
 }
  
 export default function HeroSection({
@@ -15,28 +16,39 @@ export default function HeroSection({
   primaryCta,
   secondaryCta,
   phone,
-  services
+  services,
+  heroImage,
 }: HeroProps) {
   return (
-    <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-20 lg:grid-cols-2">
+    <section className="relative overflow-hidden text-white">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      />
+      <div className="absolute inset-0 bg-slate-950/75" />
+ 
+      <div className="relative mx-auto grid max-w-6xl gap-10 px-6 py-24 lg:grid-cols-2">
         <div>
-          <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-semibold">
+          <span
+            className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-semibold"
+          >
             {badge}
           </span>
-          <h1 className="mt-6 text-5xl font-bold leading-tight">{title}</h1>
+ 
+          <h1 className="mt-6 text-5xl font-bold leading-tight md:text-6xl">{title}</h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-200">{subtitle}</p>
  
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="/contact"
-              className="rounded-lg bg-blue-500 px-5 py-3 font-semibold text-white hover:bg-blue-400"
+              className="rounded-lg px-5 py-3 font-semibold text-white transition"
+              style={{ backgroundColor: "var(--primary-color)" }}
             >
               {primaryCta}
             </a>
             <a
               href={"tel:" + phone}
-              className="rounded-lg border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/10"
+              className="rounded-lg border border-white/20 px-5 py-3 font-semibold text-white transition hover:bg-white/10"
             >
               {secondaryCta}
             </a>
@@ -46,7 +58,7 @@ export default function HeroSection({
             {services.slice(0, 3).map((service) => (
               <div
                 key={service.title}
-                className="rounded-xl border border-white/10 bg-white/5 px-4 py-3"
+                className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur"
               >
                 {service.title}
               </div>
@@ -70,7 +82,8 @@ export default function HeroSection({
             />
             <button
               type="button"
-              className="rounded-lg bg-slate-900 px-5 py-3 font-semibold text-white"
+              className="rounded-lg px-5 py-3 font-semibold text-white"
+              style={{ backgroundColor: "var(--accent-color)" }}
             >
               Send enquiry
             </button>

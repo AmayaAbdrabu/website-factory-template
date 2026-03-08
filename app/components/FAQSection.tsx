@@ -1,5 +1,5 @@
 export default function FAQSection({
-  faqs
+  faqs,
 }: {
   faqs: { question: string; answer: string }[]
 }) {

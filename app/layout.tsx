@@ -2,18 +2,18 @@ import type { Metadata } from "next"
 import "./globals.css"
  
 export const metadata: Metadata = {
-  title: "Hassy’s Mowing",
-  description: "Hassy’s Mowing delivers high-end mowing and hedge trimming services across Perth with reliable scheduling, modern equipment, and a clean, trustworthy experience from first enquiry to final finish."
+  title: "Atlas AI Systems",
+  description: "Atlas AI Systems helps ambitious companies streamline operations, reduce manual workload, and scale faster with tailored AI automation, intelligent workflows, and high-performance digital systems."
 }
  
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-white text-slate-900 antialiased">{children}</body>
     </html>
   )
 }

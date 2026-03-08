@@ -1,8 +1,14 @@
 export default function TrustGrid({ points }: { points: string[] }) {
   return (
     <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-      {points.map((point) => (
-        <div key={point} className="rounded-2xl border bg-slate-50 p-5 text-slate-700">
+      {points.map((point, index) => (
+        <div
+          key={point}
+          className="rounded-2xl p-5 text-slate-700"
+          style={{
+            backgroundColor: index % 2 === 0 ? "var(--muted-color)" : "var(--surface-color)"
+          }}
+        >
           <p className="font-medium">{point}</p>
         </div>
       ))}

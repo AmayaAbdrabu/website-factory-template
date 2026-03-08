@@ -9,7 +9,7 @@ export default function ContactForm({
   title,
   subtitle,
   phone,
-  email
+  email,
 }: ContactFormProps) {
   return (
     <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
@@ -30,14 +30,18 @@ export default function ContactForm({
           />
           <button
             type="button"
-            className="rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500"
+            className="rounded-lg px-5 py-3 font-semibold text-white transition"
+            style={{ backgroundColor: "var(--primary-color)" }}
           >
             Submit enquiry
           </button>
         </form>
       </div>
  
-      <div className="rounded-2xl border bg-slate-50 p-8">
+      <div
+        className="rounded-2xl p-8"
+        style={{ backgroundColor: "var(--surface-color)" }}
+      >
         <h3 className="text-2xl font-bold text-slate-900">Contact details</h3>
         <div className="mt-6 space-y-4 text-slate-700">
           <p>

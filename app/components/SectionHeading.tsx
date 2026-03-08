@@ -1,7 +1,7 @@
 export default function SectionHeading({
   eyebrow,
   title,
-  subtitle
+  subtitle,
 }: {
   eyebrow?: string
   title: string
@@ -10,7 +10,7 @@ export default function SectionHeading({
   return (
     <div className="max-w-3xl">
       {eyebrow ? (
-        <p className="text-sm font-semibold uppercase tracking-wide text-blue-600">
+        <p className="text-sm font-semibold uppercase tracking-wide" style={{ color: "var(--primary-color)" }}>
           {eyebrow}
         </p>
       ) : null}
