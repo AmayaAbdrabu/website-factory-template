@@ -87,14 +87,6 @@ body {
 }
 
 
-:root {
-  --primary-color: #1B365D;
-  --secondary-color: #2F4858;
-  --accent-color: #D97706;
-  --surface-color: #F7F9FC;
-  --muted-color: #6B7280;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -111,6 +103,24 @@ body {
   --accent-color: #4F8CFF;
   --surface-color: #F5F8FC;
   --muted-color: #7B8AA0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  color: #0f172a;
+}
+
+
+:root {
+  --primary-color: #0B1020;
+  --secondary-color: #121A2F;
+  --accent-color: #5B8CFF;
+  --surface-color: #F5F7FB;
+  --muted-color: #94A3B8;
 }
 
 html {

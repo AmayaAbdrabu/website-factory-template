@@ -1,74 +1,82 @@
 export const siteData = {
-  "businessName": "NeuralScale AI",
-  "location": "Australia",
-  "badge": "AI Strategy & Automation Consulting",
-  "heroTitle": "Scale Smarter With Practical AI Strategy",
-  "heroSubtitle": "NeuralScale AI helps Australian businesses design, implement and optimise AI automation that improves efficiency, reduces manual work and creates measurable competitive advantage.",
-  "primaryCta": "Book a Strategy Call",
-  "secondaryCta": "View Services",
-  "phone": "+61 1300 555 284",
-  "email": "hello@neuralscale.ai",
+  "businessName": "CallVault",
+  "location": "Global",
+  "badge": "AI Call Intelligence Platform",
+  "heroTitle": "Turn Call Recordings Into Clear, Actionable Reports",
+  "heroSubtitle": "Upload recorded calls and get AI-generated transcripts, concise summaries, and structured reports saved by account for fast review, better oversight, and smarter decisions.",
+  "primaryCta": "Start Free Trial",
+  "secondaryCta": "Book a Demo",
+  "phone": "+1 800 555 0199",
+  "email": "hello@callvault.ai",
   "services": [
     {
-      "title": "AI Strategy Consulting",
-      "description": "Define the right AI roadmap for your business with clear priorities, use cases, risk planning and implementation guidance aligned to commercial outcomes."
+      "title": "AI Transcription",
+      "description": "Convert uploaded call recordings into fast, accurate transcripts with speaker-aware formatting designed for business review."
     },
     {
-      "title": "Workflow Automation",
-      "description": "Streamline repetitive processes with intelligent automation across operations, sales, support and internal admin to save time and improve consistency."
+      "title": "Smart Summaries",
+      "description": "Generate concise overviews that highlight key discussion points, outcomes, and next steps without manual note-taking."
     },
     {
-      "title": "Custom AI Solutions",
-      "description": "Build tailored AI assistants, internal tools and data-driven systems designed around your workflows, team needs and customer experience goals."
+      "title": "Structured Reports",
+      "description": "Turn calls into standardized reports with consistent fields, insights, and account-level context for easier internal workflows."
+    },
+    {
+      "title": "Account-Based Storage",
+      "description": "Save transcripts, summaries, and reports under each account so teams can revisit conversations and maintain a reliable history."
     }
   ],
   "trustPoints": [
-    "Strategy-led, outcome-focused delivery",
-    "Built for Australian businesses and teams",
-    "Automation designed around real workflows",
-    "Clear implementation plans without hype"
+    "Built for high-volume B2B teams",
+    "Secure account-level call organization",
+    "Fast AI analysis from uploaded recordings",
+    "Modern dashboard experience for review"
   ],
   "testimonials": [
     {
-      "name": "Olivia R.",
-      "text": "NeuralScale AI helped us turn broad AI ideas into a practical roadmap. We quickly identified automation opportunities and started seeing efficiency gains across the team."
+      "name": "Rachel Kim, Revenue Operations Director",
+      "text": "CallVault gave our team a cleaner way to review customer conversations at scale. The summaries and structured reports save hours every week."
     },
     {
-      "name": "Daniel T.",
-      "text": "Professional, clear and commercially focused. Their automation recommendations saved our staff hours each week and gave us confidence in where AI fits our business."
+      "name": "Daniel Foster, Client Services Lead",
+      "text": "The account-based history is a huge advantage. We can instantly find past calls, see what happened, and keep everyone aligned."
+    },
+    {
+      "name": "Maya Singh, COO",
+      "text": "It feels like enterprise software from day one. The product looks polished, works fast, and makes call review far more manageable."
     }
   ],
   "faqs": [
     {
-      "question": "What types of businesses do you work with?",
-      "answer": "We work with growth-focused businesses across professional services, operations-heavy teams, technology companies and organisations looking to improve efficiency through AI and automation."
+      "question": "How does CallVault work?",
+      "answer": "Businesses upload recorded calls to the platform, and CallVault uses AI to generate transcripts, summaries, and structured reports that are stored under the relevant account for future review."
     },
     {
-      "question": "Do you offer strategy before implementation?",
-      "answer": "Yes. We often begin with discovery and strategy so we can identify the highest-value use cases, assess readiness and create a clear roadmap before any build or rollout."
+      "question": "Who is CallVault designed for?",
+      "answer": "CallVault is ideal for sales teams, client service teams, operations leaders, compliance-focused organizations, and any business that needs a better way to analyze recorded conversations."
     },
     {
-      "question": "Can you help with both automation and custom AI tools?",
-      "answer": "Yes. We advise on AI strategy, automate workflows and can scope or develop tailored AI solutions based on your processes, systems and objectives."
+      "question": "Can reports be saved by customer or account?",
+      "answer": "Yes. A core part of the platform is saving transcripts, summaries, and reports per account so teams can maintain a searchable conversation history."
     },
     {
-      "question": "How do you measure success?",
-      "answer": "Success is measured against practical business outcomes such as time saved, reduced manual effort, improved response times, workflow efficiency and stronger decision-making."
+      "question": "Does the platform support subscription pricing?",
+      "answer": "Yes. The website should include a dedicated Pricing page with straightforward monthly subscription plans that scale based on business needs."
     }
   ],
   "aboutParagraphs": [
-    "NeuralScale AI is an Australian AI consulting company focused on helping businesses adopt artificial intelligence in a practical, commercially valuable way. We combine strategic thinking with implementation insight to make AI useful, not overwhelming.",
-    "Our work centres on identifying where automation and AI can create the biggest impact, then translating those opportunities into clear action plans. From process improvement to tailored AI solutions, we help teams move with confidence.",
-    "We believe modern AI consulting should be transparent, focused and outcome-driven. That means clear recommendations, realistic roadmaps and solutions designed around how your business actually operates."
+    "CallVault is built for businesses that rely on recorded conversations but need a faster, more consistent way to review them. Instead of manually listening back, teams can upload calls and receive polished transcripts, concise summaries, and structured reports in a fraction of the time.",
+    "The product is designed to feel serious, efficient, and investment-ready. The visual direction should reflect a premium B2B SaaS brand, with a dark, high-contrast hero section, clean typography, refined spacing, and dashboard-inspired visuals that communicate trust and technical strength.",
+    "Site structure should keep the homepage focused and modern, with hero, feature highlights, pricing preview, enquiry section, and final CTA. Deeper content should live on dedicated pages for Features, Pricing, FAQ, and Contact, creating a clean journey for decision-makers evaluating the platform."
   ],
-  "ctaHeadline": "Ready to Build a Smarter Business?",
-  "ctaText": "Talk to NeuralScale AI about automation opportunities, AI strategy and practical next steps for your organisation.",
+  "ctaHeadline": "See How CallVault Fits Your Workflow",
+  "ctaText": "Book a live demo to explore transcription, summaries, structured reports, and account-based call history in a polished platform built for modern B2B teams.",
   "colors": {
-    "primary": "#0B1220",
-    "secondary": "#132238",
-    "accent": "#4F8CFF",
-    "surface": "#F5F8FC",
-    "muted": "#7B8AA0"
+    "primary": "#0B1020",
+    "secondary": "#121A2F",
+    "accent": "#5B8CFF",
+    "surface": "#F5F7FB",
+    "muted": "#94A3B8"
   },
   "images": {
     "hero": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
@@ -76,5 +84,5 @@ export const siteData = {
     "services": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
     "contact": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
   },
-  "logoText": "NA"
+  "logoText": "C"
 }

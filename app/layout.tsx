@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "NeuralScale AI",
-  description: "NeuralScale AI helps Australian businesses design, implement and optimise AI automation that improves efficiency, reduces manual work and creates measurable competitive advantage."
+  title: "CallVault",
+  description: "Upload recorded calls and get AI-generated transcripts, concise summaries, and structured reports saved by account for fast review, better oversight, and smarter decisions."
 }
 
 export default function RootLayout({
