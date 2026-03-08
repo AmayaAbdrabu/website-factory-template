@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Jays Roofing",
-  description: "Jays Roofing delivers professional roof repairs, restorations, re-roofing and maintenance for homes and businesses across Perth. Quality workmanship, clear communication and dependable service from start to finish."
+  title: "NeuralScale AI",
+  description: "NeuralScale AI helps Australian businesses design, implement and optimise AI automation that improves efficiency, reduces manual work and creates measurable competitive advantage."
 }
 
 export default function RootLayout({
