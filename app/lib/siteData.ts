@@ -1,88 +1,88 @@
 export const siteData = {
-  "businessName": "Jays Roofing",
-  "location": "United Kingdom",
-  "badge": "Modern Roof Cleaning Specialists",
-  "heroTitle": "Professional Roof Cleaning That Restores Kerb Appeal",
-  "heroSubtitle": "Jays Roofing delivers safe, reliable roof cleaning and exterior roof care for homes and properties that need a cleaner, smarter finish.",
-  "primaryCta": "Request a Free Quote",
-  "secondaryCta": "View Our Services",
-  "phone": "07400 123456",
-  "email": "info@jaysroofing.co.uk",
+  "businessName": "Perth Precision Plumbing",
+  "location": "Perth, WA",
+  "badge": "Trusted Local Plumbers in Perth",
+  "heroTitle": "Reliable Plumbing Solutions for Homes and Businesses",
+  "heroSubtitle": "Fast response, high-quality workmanship, and clear communication for maintenance, repairs, installations, and emergency plumbing across Perth.",
+  "primaryCta": "Request a Quote",
+  "secondaryCta": "Call Now",
+  "phone": "(08) 6245 1187",
+  "email": "hello@perthprecisionplumbing.com.au",
   "services": [
     {
-      "title": "Roof Cleaning",
-      "description": "Remove moss, algae, dirt and staining to improve the appearance of your roof and help maintain its condition."
+      "title": "Emergency Plumbing",
+      "description": "Rapid callouts for burst pipes, major leaks, blocked drains, and urgent plumbing issues that need immediate attention."
     },
     {
-      "title": "Moss Removal",
-      "description": "Careful moss removal from roof surfaces to reduce buildup, improve drainage and leave a cleaner finish."
+      "title": "Blocked Drains",
+      "description": "Effective drain clearing and diagnostics using modern equipment to restore flow and prevent recurring issues."
     },
     {
-      "title": "Roof Treatment",
-      "description": "Protective roof treatments designed to slow regrowth and keep roofs looking cleaner for longer."
+      "title": "Hot Water Systems",
+      "description": "Installation, repairs, and replacements for electric, gas, and continuous flow hot water systems."
     },
     {
-      "title": "Gutter Clearing",
-      "description": "Complete gutter clearing to remove debris, improve water flow and support overall roofline maintenance."
+      "title": "General Plumbing Maintenance",
+      "description": "Tap repairs, toilet repairs, leak detection, pipework maintenance, and ongoing plumbing support for residential and commercial properties."
     }
   ],
   "trustPoints": [
-    "Free no-obligation quotations",
-    "Reliable and tidy service",
-    "Residential and small commercial work",
-    "Modern equipment and safe methods"
+    "Licensed and insured Perth plumbers",
+    "Fast response for urgent callouts",
+    "Upfront quotes with no hidden surprises",
+    "Residential and commercial plumbing expertise"
   ],
   "testimonials": [
     {
-      "name": "Sarah M.",
-      "text": "Jays Roofing transformed the look of our roof. The team was punctual, professional and left everything neat and tidy."
+      "name": "Samantha R.",
+      "text": "Quick to respond, professional from start to finish, and the job was completed to a very high standard. Highly recommend for any plumbing work in Perth."
     },
     {
-      "name": "David R.",
-      "text": "Great communication from start to finish. Our roof looks much cleaner and the gutters were cleared at the same time."
+      "name": "Daniel M.",
+      "text": "We had a blocked drain and they sorted it out fast. Great communication, fair pricing, and left everything clean and tidy."
     },
     {
-      "name": "Emma T.",
-      "text": "Very professional service and a fair quote. I would happily recommend Jays Roofing to anyone needing roof cleaning."
+      "name": "Priya T.",
+      "text": "Excellent service replacing our hot water system. They explained the options clearly and made the whole process easy."
     }
   ],
   "faqs": [
     {
-      "question": "What does roof cleaning include?",
-      "answer": "Roof cleaning typically includes the removal of moss, dirt, algae and surface staining, with optional treatment and gutter clearing depending on the property."
+      "question": "Do you offer emergency plumbing services in Perth?",
+      "answer": "Yes, we provide fast-response emergency plumbing services for urgent issues including burst pipes, blocked drains, overflowing toilets, and major leaks."
     },
     {
-      "question": "Is roof cleaning safe for my tiles?",
-      "answer": "Yes, when carried out using the right methods for the roof type. Jays Roofing uses careful, property-appropriate techniques to protect the roof while improving its appearance."
+      "question": "Can you provide quotes before starting work?",
+      "answer": "Yes, we provide clear, upfront quotes wherever possible so you understand the scope and cost before work begins."
     },
     {
-      "question": "How often should a roof be cleaned?",
-      "answer": "This depends on the age of the roof, nearby trees and weather exposure, but many properties benefit from periodic cleaning every few years."
+      "question": "Do you work with both residential and commercial clients?",
+      "answer": "Yes, we handle plumbing services for homes, offices, retail spaces, strata properties, and other commercial sites across Perth."
     },
     {
-      "question": "Do you offer free quotes?",
-      "answer": "Yes, Jays Roofing offers free, no-obligation quotes so you can understand the work required before booking."
+      "question": "What hot water systems do you service?",
+      "answer": "We install, repair, and replace a wide range of hot water systems including gas, electric, and instantaneous units."
     }
   ],
   "aboutParagraphs": [
-    "Jays Roofing is a modern roof cleaning company focused on helping homeowners improve the look and upkeep of their property with dependable, professional service.",
-    "We believe in clean presentation, honest communication and quality workmanship. Every job is approached with care, using suitable equipment and methods to achieve a smart result.",
-    "From moss removal to complete roof cleaning and gutter clearing, our aim is to deliver a polished service that makes your property look well cared for from the very first glance."
+    "Perth Precision Plumbing delivers dependable plumbing services with a focus on quality workmanship, prompt response times, and honest advice. We work with homeowners, businesses, and property managers across Perth.",
+    "Our approach is simple: arrive on time, communicate clearly, diagnose the issue properly, and complete the work to a high professional standard. Whether it is a small repair or a larger installation, we aim to make the process smooth and stress-free.",
+    "With experience across emergency plumbing, blocked drains, hot water systems, and general maintenance, we are committed to building long-term trust through reliable service and consistent results."
   ],
-  "ctaHeadline": "Give Your Roof a Cleaner, Smarter Finish",
-  "ctaText": "Get in touch with Jays Roofing today for a free quote and find out how we can refresh the appearance of your roof with a modern, professional service.",
+  "ctaHeadline": "Need a trusted plumber in Perth?",
+  "ctaText": "Get in touch today for fast advice, prompt service, and a clear quote from a professional local plumbing team.",
   "colors": {
-    "primary": "#1F3A5F",
-    "secondary": "#2E5B88",
-    "accent": "#7CC6D9",
-    "surface": "#F6F8FB",
-    "muted": "#7A8796"
+    "primary": "#0F3D5E",
+    "secondary": "#1F6B8F",
+    "accent": "#D98C2B",
+    "surface": "#F7F9FB",
+    "muted": "#6B7A89"
   },
   "images": {
-    "hero": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
-    "about": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
-    "services": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1200&q=80",
-    "contact": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
+    "hero": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=1600&q=80",
+    "about": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1200&q=80",
+    "services": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+    "contact": "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1200&q=80"
   },
-  "logoText": "JR"
+  "logoText": "PP"
 }
