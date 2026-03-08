@@ -6,17 +6,17 @@ import HeroSection from "./components/HeroSection"
 import ServicesGrid from "./components/ServicesGrid"
 import ContactForm from "./components/ContactForm"
 import { siteData } from "./lib/siteData"
- 
+
 export const metadata: Metadata = {
   title: siteData.businessName,
   description: siteData.heroSubtitle,
 }
- 
+
 export default function Home() {
   return (
     <main className="bg-white text-slate-900">
       <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
- 
+
       <HeroSection
         badge={siteData.badge}
         title={siteData.heroTitle}
@@ -26,7 +26,7 @@ export default function Home() {
         phone={siteData.phone}
         heroImage={siteData.images.hero}
       />
- 
+
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
           eyebrow="Our services"
@@ -37,7 +37,7 @@ export default function Home() {
           <ServicesGrid services={siteData.services} />
         </div>
       </section>
- 
+
       <section
         className="py-20"
         style={{ backgroundColor: "var(--muted-color)" }}
@@ -51,7 +51,7 @@ export default function Home() {
           />
         </div>
       </section>
- 
+
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div
           className="rounded-3xl p-10 text-white"
@@ -71,7 +71,7 @@ export default function Home() {
           </a>
         </div>
       </section>
- 
+
       <SiteFooter
         businessName={siteData.businessName}
         phone={siteData.phone}

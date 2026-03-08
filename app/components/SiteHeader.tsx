@@ -17,7 +17,7 @@ export default function SiteHeader({
           </div>
           <span className="text-xl font-bold text-slate-900">{businessName}</span>
         </a>
- 
+
         <nav className="hidden gap-6 text-sm font-medium text-slate-600 md:flex">
           <a href="/" className="transition hover:text-slate-900">Home</a>
           <a href="/about" className="transition hover:text-slate-900">About</a>
@@ -25,7 +25,7 @@ export default function SiteHeader({
           <a href="/faq" className="transition hover:text-slate-900">FAQ</a>
           <a href="/contact" className="transition hover:text-slate-900">Contact</a>
         </nav>
- 
+
         <details className="md:hidden">
           <summary className="cursor-pointer list-none rounded-lg border px-3 py-2 text-sm font-medium text-slate-700">
             Menu

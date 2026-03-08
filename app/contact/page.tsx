@@ -5,17 +5,17 @@ import SectionHeading from "../components/SectionHeading"
 import ContactForm from "../components/ContactForm"
 import ImageSection from "../components/ImageSection"
 import { siteData } from "../lib/siteData"
- 
+
 export const metadata: Metadata = {
   title: `Contact | ${siteData.businessName}`,
   description: `Contact ${siteData.businessName} in ${siteData.location}.`,
 }
- 
+
 export default function ContactPage() {
   return (
     <main className="bg-white text-slate-900">
       <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
- 
+
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
           eyebrow="Contact"
@@ -31,7 +31,7 @@ export default function ContactPage() {
           />
         </div>
       </section>
- 
+
       <section
         className="py-20"
         style={{ backgroundColor: "var(--surface-color)" }}
@@ -45,7 +45,7 @@ export default function ContactPage() {
           />
         </div>
       </section>
- 
+
       <SiteFooter
         businessName={siteData.businessName}
         phone={siteData.phone}

@@ -4,7 +4,7 @@ type ContactFormProps = {
   phone: string
   email: string
 }
- 
+
 export default function ContactForm({
   title,
   subtitle,
@@ -16,7 +16,7 @@ export default function ContactForm({
       <div className="rounded-2xl border bg-white p-8 shadow-sm">
         <h3 className="text-2xl font-bold text-slate-900">{title}</h3>
         <p className="mt-3 text-slate-600">{subtitle}</p>
- 
+
         <form className="mt-6 grid gap-4">
           <div className="grid gap-4 md:grid-cols-2">
             <input className="rounded-lg border px-4 py-3" placeholder="Full name" />
@@ -37,7 +37,7 @@ export default function ContactForm({
           </button>
         </form>
       </div>
- 
+
       <div
         className="rounded-2xl p-8"
         style={{ backgroundColor: "var(--surface-color)" }}

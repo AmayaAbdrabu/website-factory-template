@@ -5,17 +5,17 @@ import SectionHeading from "../components/SectionHeading"
 import ServicesGrid from "../components/ServicesGrid"
 import ImageSection from "../components/ImageSection"
 import { siteData } from "../lib/siteData"
- 
+
 export const metadata: Metadata = {
   title: `Services | ${siteData.businessName}`,
   description: `Explore the services offered by ${siteData.businessName} in ${siteData.location}.`,
 }
- 
+
 export default function ServicesPage() {
   return (
     <main className="bg-white text-slate-900">
       <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
- 
+
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
           eyebrow="Services"
@@ -26,7 +26,7 @@ export default function ServicesPage() {
           <ServicesGrid services={siteData.services} />
         </div>
       </section>
- 
+
       <section
         className="py-20"
         style={{ backgroundColor: "var(--surface-color)" }}
@@ -39,7 +39,7 @@ export default function ServicesPage() {
           />
         </div>
       </section>
- 
+
       <SiteFooter
         businessName={siteData.businessName}
         phone={siteData.phone}
