@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import "./globals.css"
  
 export const metadata: Metadata = {
-  title: "Atlas AI Systems",
-  description: "Atlas AI Systems helps Perth businesses streamline operations, reduce manual workload, and unlock growth with custom AI automation, workflow design, and practical implementation."
+  title: "Jays AI Systems",
+  description: "Jays AI Systems helps Perth businesses design, implement, and scale practical AI solutions, automation workflows, and intelligent software systems with a premium consulting approach."
 }
  
 export default function RootLayout({

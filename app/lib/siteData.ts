@@ -1,96 +1,80 @@
 export const siteData = {
-  "businessName": "Atlas AI Systems",
+  "businessName": "Jays AI Systems",
   "location": "Perth, WA",
-  "badge": "Premium AI Automation for Modern Businesses",
-  "heroTitle": "Intelligent Automation Built to Scale Your Business",
-  "heroSubtitle": "Atlas AI Systems helps Perth businesses streamline operations, reduce manual workload, and unlock growth with custom AI automation, workflow design, and practical implementation.",
+  "badge": "Premium AI Consulting & Automation",
+  "heroTitle": "Modern AI Systems Built for Ambitious Businesses",
+  "heroSubtitle": "Jays AI Systems helps Perth businesses design, implement, and scale practical AI solutions, automation workflows, and intelligent software systems with a premium consulting approach.",
   "primaryCta": "Book a Strategy Call",
-  "secondaryCta": "View Services",
-  "phone": "(08) 6245 2180",
-  "email": "hello@atlasaisystems.com.au",
+  "secondaryCta": "Send an Enquiry",
+  "phone": "+61 8 9468 2410",
+  "email": "hello@jaysaisystems.com.au",
   "services": [
     {
-      "title": "AI Workflow Automation",
-      "description": "Design and deploy tailored automations that eliminate repetitive tasks, connect your systems, and improve speed across sales, operations, and customer service."
+      "title": "AI Consulting",
+      "description": "Strategic guidance for businesses looking to identify high-impact AI opportunities, reduce inefficiencies, and create a clear implementation roadmap."
     },
     {
-      "title": "Custom AI Assistants",
-      "description": "Build branded AI assistants and internal copilots that support teams, answer customer questions, and provide fast access to business knowledge."
+      "title": "Workflow Automation",
+      "description": "Custom automation systems that streamline repetitive tasks, connect your tools, and improve operational speed, accuracy, and scalability."
     },
     {
-      "title": "Lead Capture & Sales Automation",
-      "description": "Automate enquiry handling, qualification, follow-up, and CRM updates so your team can focus on closing opportunities instead of chasing admin."
-    },
-    {
-      "title": "Process Mapping & AI Strategy",
-      "description": "Identify high-impact automation opportunities with a clear roadmap that aligns AI implementation with your business goals, systems, and team workflows."
-    },
-    {
-      "title": "Integration & Systems Optimisation",
-      "description": "Connect your existing tools, databases, and platforms into a unified ecosystem that improves visibility, reduces friction, and supports growth."
-    },
-    {
-      "title": "Ongoing Support & Optimisation",
-      "description": "Receive continued monitoring, refinement, and strategic guidance to keep your AI automations performing reliably as your business evolves."
+      "title": "Custom AI Integrations",
+      "description": "Tailored AI-powered solutions integrated into your existing processes, internal systems, and customer experiences for measurable business outcomes."
     }
   ],
   "trustPoints": [
-    "Custom-built solutions tailored to your operations",
-    "Perth-based partner with practical business focus",
-    "Secure, scalable automation designed for growth",
-    "Clear implementation roadmap with ongoing support"
+    "Perth-based AI consulting partner",
+    "Premium modern SaaS-style delivery",
+    "Built around practical business outcomes",
+    "Custom solutions, not generic templates"
   ],
   "testimonials": [
     {
       "name": "Daniel R.",
-      "text": "Atlas AI Systems helped us automate our lead intake and follow-up process, saving our team hours every week. The implementation was smooth, strategic, and immediately valuable."
+      "text": "Jays AI Systems brought clarity to our automation strategy and delivered a solution that immediately improved team efficiency."
     },
     {
-      "name": "Michelle T.",
-      "text": "We wanted AI that actually solved operational bottlenecks, not just a flashy demo. Atlas delivered a practical system that improved response times and internal efficiency from day one."
-    },
-    {
-      "name": "Aaron P.",
-      "text": "Professional, knowledgeable, and easy to work with. Atlas AI Systems mapped our workflows, found the biggest inefficiencies, and built automations that now save us significant time."
+      "name": "Sophie M.",
+      "text": "Professional, strategic, and highly capable. The experience felt more like working with a premium software consultancy than a standard agency."
     }
   ],
   "faqs": [
     {
       "question": "What types of businesses do you work with?",
-      "answer": "We work with service-based businesses, professional firms, growing startups, and established companies looking to reduce manual work, improve systems, and scale operations with AI automation."
+      "answer": "We work with growth-focused businesses that want to modernise operations, improve productivity, and explore practical AI use cases. This includes professional services, operations-heavy businesses, and digital-first companies."
     },
     {
-      "question": "Do you offer custom AI solutions or pre-built packages?",
-      "answer": "Our approach is tailored. We assess your business processes, tools, and goals to recommend and build AI automations that fit your operations rather than forcing a one-size-fits-all package."
+      "question": "Do you only work with clients in Perth?",
+      "answer": "While we are based in Perth, we can work with clients across Australia through remote strategy, delivery, and support."
+    },
+    {
+      "question": "What kind of AI solutions do you build?",
+      "answer": "We help with AI strategy, internal workflow automation, custom integrations, process optimisation, and business-focused AI systems tailored to your operations."
     },
     {
       "question": "Can you integrate with our existing software?",
-      "answer": "Yes. We design solutions that connect with your current systems wherever possible, including CRMs, forms, communication tools, databases, and internal workflows."
-    },
-    {
-      "question": "How long does an AI automation project take?",
-      "answer": "Project timelines vary depending on complexity, but many businesses can begin with a focused automation project in a matter of weeks. We provide clear scopes and staged rollout plans."
+      "answer": "Yes. Our approach is designed to work with your existing tools and processes wherever possible, reducing disruption while improving capability."
     }
   ],
   "aboutParagraphs": [
-    "Atlas AI Systems is a Perth-based AI automation company focused on helping modern businesses work smarter. We combine strategic thinking, technical capability, and a strong commercial mindset to deliver automations that create measurable operational value.",
-    "Our approach is grounded in business outcomes. Rather than chasing trends, we identify where AI can reduce friction, improve responsiveness, and free your team from repetitive tasks. Every solution is designed to be practical, scalable, and aligned with how your business actually runs.",
-    "From workflow automation and AI assistants to systems integration and optimisation, we partner with ambitious companies ready to modernise their operations. The result is cleaner processes, better visibility, and more time to focus on growth."
+    "Jays AI Systems is a Perth-based AI consulting company focused on helping businesses adopt modern automation and intelligent systems in a practical, commercially valuable way. Our approach combines strategy, technical capability, and a premium delivery standard designed for organisations that want more than generic advice.",
+    "We work closely with business owners and leadership teams to identify where AI can save time, improve decision-making, streamline operations, and create stronger customer experiences. Every recommendation is shaped around measurable outcomes and long-term usability, not hype.",
+    "The brand and website direction should reflect a real modern software consultancy: dark and sophisticated, visually clean, highly intentional, and built around trust, clarity, and strong conversion. The homepage should remain concise with only hero, enquiry form, services, and a final call to action, while About, Services, FAQ, and Contact live as dedicated pages in the navigation."
   ],
-  "ctaHeadline": "Ready to Modernise Your Business with AI?",
-  "ctaText": "Book a consultation with Atlas AI Systems to uncover automation opportunities, streamline your operations, and build a smarter foundation for growth.",
+  "ctaHeadline": "Ready to Build Smarter Systems?",
+  "ctaText": "Start the conversation with Jays AI Systems and explore how AI, automation, and custom system design can move your business forward.",
   "colors": {
     "primary": "#0B1020",
-    "secondary": "#121A2F",
-    "accent": "#3B82F6",
-    "surface": "#1A2338",
-    "muted": "#94A3B8"
+    "secondary": "#11162A",
+    "accent": "#4F7CFF",
+    "surface": "#7C3AED",
+    "muted": "#E9EEF8"
   },
   "images": {
     "hero": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-    "about": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80",
-    "services": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
-    "contact": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80"
+    "about": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80",
+    "services": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1400&q=80",
+    "contact": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1400&q=80"
   },
-  "logoUrl": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92eee?auto=format&fit=crop&w=800&q=80"
+  "logoUrl": "https://api.dicebear.com/7.x/initials/svg?seed=Jays%20AI%20Systems&chars=2&backgroundColor=0B1020&textColor=ffffff&fontWeight=700&radius=20&size=128"
 }

@@ -27,14 +27,6 @@ body {
 }
 
 
-:root {
-  --primary-color: #0B1020;
-  --secondary-color: #111827;
-  --accent-color: #4FD1FF;
-  --surface-color: #1A2236;
-  --muted-color: #94A3B8;
-}
- 
 html {
   scroll-behavior: smooth;
 }
@@ -51,6 +43,24 @@ body {
   --accent-color: #3B82F6;
   --surface-color: #1A2338;
   --muted-color: #94A3B8;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+ 
+body {
+  background: white;
+  color: #0f172a;
+}
+
+
+:root {
+  --primary-color: #0B1020;
+  --secondary-color: #11162A;
+  --accent-color: #4F7CFF;
+  --surface-color: #7C3AED;
+  --muted-color: #E9EEF8;
 }
  
 html {
