@@ -93,4 +93,4 @@ export const siteData = {
     "contact": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80"
   },
   "logoUrl": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92eee?auto=format&fit=crop&w=600&q=80"
-} as const
+}
