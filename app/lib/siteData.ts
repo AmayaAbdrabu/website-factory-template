@@ -1,96 +1,96 @@
 export const siteData = {
   "businessName": "Atlas AI Systems",
   "location": "Perth, WA",
-  "badge": "Perth AI Automation Experts",
-  "heroTitle": "AI Automation That Streamlines Growth",
-  "heroSubtitle": "Atlas AI Systems helps Perth businesses automate repetitive work, improve response times, and build smarter operations with practical AI solutions tailored to real business outcomes.",
+  "badge": "Premium AI Automation for Modern Businesses",
+  "heroTitle": "Intelligent Automation Built to Scale Your Business",
+  "heroSubtitle": "Atlas AI Systems helps Perth businesses streamline operations, reduce manual workload, and unlock growth with custom AI automation, workflow design, and practical implementation.",
   "primaryCta": "Book a Strategy Call",
   "secondaryCta": "View Services",
-  "phone": "(08) 6117 4821",
+  "phone": "(08) 6245 2180",
   "email": "hello@atlasaisystems.com.au",
   "services": [
     {
       "title": "AI Workflow Automation",
-      "description": "We design and implement intelligent workflows that reduce manual admin, connect your systems, and keep your operations moving faster with less friction."
+      "description": "Design and deploy tailored automations that eliminate repetitive tasks, connect your systems, and improve speed across sales, operations, and customer service."
     },
     {
-      "title": "Custom AI Chatbots",
-      "description": "Deploy branded AI assistants for websites, customer support, lead qualification, and internal teams to provide instant answers and 24/7 responsiveness."
+      "title": "Custom AI Assistants",
+      "description": "Build branded AI assistants and internal copilots that support teams, answer customer questions, and provide fast access to business knowledge."
     },
     {
-      "title": "CRM & System Integrations",
-      "description": "Connect your CRM, forms, inboxes, scheduling tools, and internal platforms so data flows automatically and your team spends less time on repetitive tasks."
+      "title": "Lead Capture & Sales Automation",
+      "description": "Automate enquiry handling, qualification, follow-up, and CRM updates so your team can focus on closing opportunities instead of chasing admin."
     },
     {
-      "title": "AI Sales & Lead Capture",
-      "description": "Capture more opportunities with automated follow-up, lead routing, qualification flows, and AI-powered engagement that helps convert interest into action."
+      "title": "Process Mapping & AI Strategy",
+      "description": "Identify high-impact automation opportunities with a clear roadmap that aligns AI implementation with your business goals, systems, and team workflows."
     },
     {
-      "title": "Internal Knowledge Assistants",
-      "description": "Give your team secure access to company knowledge through AI tools trained on your documents, SOPs, policies, and operational resources."
+      "title": "Integration & Systems Optimisation",
+      "description": "Connect your existing tools, databases, and platforms into a unified ecosystem that improves visibility, reduces friction, and supports growth."
     },
     {
-      "title": "Strategy, Setup & Optimisation",
-      "description": "From discovery to deployment, we identify the highest-value automation opportunities, implement the right stack, and refine performance over time."
+      "title": "Ongoing Support & Optimisation",
+      "description": "Receive continued monitoring, refinement, and strategic guidance to keep your AI automations performing reliably as your business evolves."
     }
   ],
   "trustPoints": [
-    "Custom AI solutions tailored to your business",
-    "Built for speed, scalability, and measurable ROI",
-    "Local Perth partner with hands-on strategy support",
-    "Modern automation systems that integrate with your tools"
+    "Custom-built solutions tailored to your operations",
+    "Perth-based partner with practical business focus",
+    "Secure, scalable automation designed for growth",
+    "Clear implementation roadmap with ongoing support"
   ],
   "testimonials": [
     {
-      "name": "James R., Operations Manager",
-      "text": "Atlas AI Systems helped us automate lead handling and internal admin processes that were slowing our team down. The result was faster response times and far less manual work."
+      "name": "Daniel R.",
+      "text": "Atlas AI Systems helped us automate our lead intake and follow-up process, saving our team hours every week. The implementation was smooth, strategic, and immediately valuable."
     },
     {
-      "name": "Sophie M., Director",
-      "text": "The team understood both the technical side and the commercial outcome we needed. Their AI chatbot and workflow setup immediately improved how we manage enquiries."
+      "name": "Michelle T.",
+      "text": "We wanted AI that actually solved operational bottlenecks, not just a flashy demo. Atlas delivered a practical system that improved response times and internal efficiency from day one."
     },
     {
-      "name": "Daniel T., Founder",
-      "text": "Professional, strategic, and easy to work with. Atlas AI Systems delivered a polished automation system that saved us hours every week and created a better customer experience."
+      "name": "Aaron P.",
+      "text": "Professional, knowledgeable, and easy to work with. Atlas AI Systems mapped our workflows, found the biggest inefficiencies, and built automations that now save us significant time."
     }
   ],
   "faqs": [
     {
       "question": "What types of businesses do you work with?",
-      "answer": "We work with service-based businesses, professional firms, growing startups, and operations-heavy companies looking to reduce manual workload and improve efficiency through AI and automation."
+      "answer": "We work with service-based businesses, professional firms, growing startups, and established companies looking to reduce manual work, improve systems, and scale operations with AI automation."
     },
     {
-      "question": "Do you offer custom AI solutions or only pre-built tools?",
-      "answer": "We provide tailored solutions based on your workflows, systems, and business goals. Where it makes sense, we combine proven platforms with custom implementation for the best outcome."
+      "question": "Do you offer custom AI solutions or pre-built packages?",
+      "answer": "Our approach is tailored. We assess your business processes, tools, and goals to recommend and build AI automations that fit your operations rather than forcing a one-size-fits-all package."
     },
     {
-      "question": "Can you integrate AI with our existing software?",
-      "answer": "Yes. We can connect AI and automation into many common business tools including CRMs, email platforms, scheduling software, form systems, support tools, and internal databases."
+      "question": "Can you integrate with our existing software?",
+      "answer": "Yes. We design solutions that connect with your current systems wherever possible, including CRMs, forms, communication tools, databases, and internal workflows."
     },
     {
       "question": "How long does an AI automation project take?",
-      "answer": "Project timelines vary depending on complexity, but many foundational automation and chatbot projects can be scoped and launched within a few weeks."
+      "answer": "Project timelines vary depending on complexity, but many businesses can begin with a focused automation project in a matter of weeks. We provide clear scopes and staged rollout plans."
     }
   ],
   "aboutParagraphs": [
-    "Atlas AI Systems is a Perth-based AI automation company focused on helping businesses operate smarter. We combine strategic thinking, modern systems design, and practical implementation to create automation that delivers real business value.",
-    "Our approach is grounded in outcomes. Rather than pushing generic tools, we identify the bottlenecks, manual tasks, and customer experience gaps holding your business back, then build solutions that save time and improve performance.",
-    "With a premium, startup-inspired mindset and a strong understanding of business workflows, Atlas AI Systems delivers polished AI systems that are efficient, scalable, and designed to support growth."
+    "Atlas AI Systems is a Perth-based AI automation company focused on helping modern businesses work smarter. We combine strategic thinking, technical capability, and a strong commercial mindset to deliver automations that create measurable operational value.",
+    "Our approach is grounded in business outcomes. Rather than chasing trends, we identify where AI can reduce friction, improve responsiveness, and free your team from repetitive tasks. Every solution is designed to be practical, scalable, and aligned with how your business actually runs.",
+    "From workflow automation and AI assistants to systems integration and optimisation, we partner with ambitious companies ready to modernise their operations. The result is cleaner processes, better visibility, and more time to focus on growth."
   ],
-  "ctaHeadline": "Ready to Build Smarter Systems?",
-  "ctaText": "Talk to Atlas AI Systems about AI automation, chatbots, and intelligent workflows designed to save time, improve service, and help your business scale with confidence.",
+  "ctaHeadline": "Ready to Modernise Your Business with AI?",
+  "ctaText": "Book a consultation with Atlas AI Systems to uncover automation opportunities, streamline your operations, and build a smarter foundation for growth.",
   "colors": {
     "primary": "#0B1020",
-    "secondary": "#111827",
-    "accent": "#4FD1FF",
-    "surface": "#1A2236",
+    "secondary": "#121A2F",
+    "accent": "#3B82F6",
+    "surface": "#1A2338",
     "muted": "#94A3B8"
   },
   "images": {
     "hero": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-    "about": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80",
-    "services": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=80",
-    "contact": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
+    "about": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80",
+    "services": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "contact": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80"
   },
-  "logoUrl": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92eee?auto=format&fit=crop&w=600&q=80"
-} as const
+  "logoUrl": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92eee?auto=format&fit=crop&w=800&q=80"
+}

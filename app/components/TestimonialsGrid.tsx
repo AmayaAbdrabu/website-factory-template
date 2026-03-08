@@ -1,7 +1,7 @@
 export default function TestimonialsGrid({
   testimonials,
 }: {
-  testimonials: { name: string; text: string }[]
+  testimonials: readonly { name: string; text: string }[]
 }) {
   return (
     <div className="grid gap-6 md:grid-cols-3">

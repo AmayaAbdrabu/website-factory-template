@@ -1,7 +1,7 @@
 export default function ServicesGrid({
   services,
 }: {
-  services: { title: string; description: string }[]
+  services: readonly { title: string; description: string }[]
 }) {
   return (
     <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

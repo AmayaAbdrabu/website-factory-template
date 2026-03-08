@@ -1,4 +1,4 @@
-export default function TrustGrid({ points }: { points: string[] }) {
+export default function TrustGrid({ points }: { points: readonly string[] }) {
   return (
     <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
       {points.map((point, index) => (

@@ -1,7 +1,7 @@
 export default function FAQSection({
   faqs,
 }: {
-  faqs: { question: string; answer: string }[]
+  faqs: readonly { question: string; answer: string }[]
 }) {
   return (
     <div className="space-y-4">
