@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="bg-white text-slate-900">
-      <SiteHeader businessName={siteData.businessName} logoUrl={siteData.logoUrl} />
+      <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
  
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
@@ -50,7 +50,6 @@ export default function ContactPage() {
         businessName={siteData.businessName}
         phone={siteData.phone}
         email={siteData.email}
-        logoUrl={siteData.logoUrl}
       />
     </main>
   )

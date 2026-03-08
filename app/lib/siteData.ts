@@ -1,88 +1,88 @@
 export const siteData = {
-  "businessName": "Aereal",
+  "businessName": "Jays Roofing",
   "location": "United Kingdom",
-  "badge": "Drone-Powered Exterior Cleaning",
-  "heroTitle": "Modern Exterior Cleaning, Elevated by Drone Technology",
-  "heroSubtitle": "Aereal delivers safe, efficient window and building exterior cleaning for commercial properties, apartments, offices, schools, and high-access sites—without the disruption, cost, or risk of traditional access equipment.",
-  "primaryCta": "Request a Quote",
-  "secondaryCta": "Book a Site Survey",
-  "phone": "0800 246 1187",
-  "email": "hello@aerealcleaning.co.uk",
+  "badge": "Modern Roof Cleaning Specialists",
+  "heroTitle": "Professional Roof Cleaning That Restores Kerb Appeal",
+  "heroSubtitle": "Jays Roofing delivers safe, reliable roof cleaning and exterior roof care for homes and properties that need a cleaner, smarter finish.",
+  "primaryCta": "Request a Free Quote",
+  "secondaryCta": "View Our Services",
+  "phone": "07400 123456",
+  "email": "info@jaysroofing.co.uk",
   "services": [
     {
-      "title": "Drone Window Cleaning",
-      "description": "Pure-water drone cleaning for high-level and difficult-to-access glazing, delivering spotless results with minimal disruption and no scaffolding."
+      "title": "Roof Cleaning",
+      "description": "Remove moss, algae, dirt and staining to improve the appearance of your roof and help maintain its condition."
     },
     {
-      "title": "Building Façade Cleaning",
-      "description": "Professional exterior cleaning for cladding, render, metal panels, and other building surfaces to restore presentation and protect your asset."
+      "title": "Moss Removal",
+      "description": "Careful moss removal from roof surfaces to reduce buildup, improve drainage and leave a cleaner finish."
     },
     {
-      "title": "High-Level Access Cleaning",
-      "description": "A smarter solution for sites where lifts, cherry pickers, or rope access are costly, impractical, or disruptive to day-to-day operations."
+      "title": "Roof Treatment",
+      "description": "Protective roof treatments designed to slow regrowth and keep roofs looking cleaner for longer."
     },
     {
-      "title": "Commercial & Block Management",
-      "description": "Reliable scheduled cleaning for offices, residential developments, schools, healthcare sites, and managed properties requiring a polished appearance year-round."
+      "title": "Gutter Clearing",
+      "description": "Complete gutter clearing to remove debris, improve water flow and support overall roofline maintenance."
     }
   ],
   "trustPoints": [
-    "Drone-based cleaning reduces access costs and site disruption",
-    "Ideal for commercial buildings, apartments, and high-level glazing",
-    "Risk-assessed, professional service with safety-first procedures",
-    "Flexible one-off cleans and scheduled maintenance plans"
+    "Free no-obligation quotations",
+    "Reliable and tidy service",
+    "Residential and small commercial work",
+    "Modern equipment and safe methods"
   ],
   "testimonials": [
     {
-      "name": "Daniel H., Facilities Manager",
-      "text": "Aereal gave us a far more efficient alternative to traditional access equipment. The results were excellent, and the entire process felt modern, safe, and professionally managed."
+      "name": "Sarah M.",
+      "text": "Jays Roofing transformed the look of our roof. The team was punctual, professional and left everything neat and tidy."
     },
     {
-      "name": "Priya S., Property Manager",
-      "text": "We needed exterior cleaning for a multi-storey residential block without disturbing residents. Aereal handled everything smoothly and the building looked noticeably brighter afterwards."
+      "name": "David R.",
+      "text": "Great communication from start to finish. Our roof looks much cleaner and the gutters were cleared at the same time."
     },
     {
-      "name": "Mark T., Operations Director",
-      "text": "From quote to completion, the service was fast, clear, and dependable. Their drone cleaning approach saved us both time and unnecessary site complications."
+      "name": "Emma T.",
+      "text": "Very professional service and a fair quote. I would happily recommend Jays Roofing to anyone needing roof cleaning."
     }
   ],
   "faqs": [
     {
-      "question": "How does drone window cleaning work?",
-      "answer": "We use specialist cleaning drones equipped with pure-water systems to clean windows and exterior surfaces from the ground, allowing us to access high areas safely and efficiently."
+      "question": "What does roof cleaning include?",
+      "answer": "Roof cleaning typically includes the removal of moss, dirt, algae and surface staining, with optional treatment and gutter clearing depending on the property."
     },
     {
-      "question": "What types of buildings do you clean?",
-      "answer": "We work on offices, apartment blocks, schools, warehouses, commercial units, and other multi-storey or hard-to-access buildings."
+      "question": "Is roof cleaning safe for my tiles?",
+      "answer": "Yes, when carried out using the right methods for the roof type. Jays Roofing uses careful, property-appropriate techniques to protect the roof while improving its appearance."
     },
     {
-      "question": "Is drone cleaning safe?",
-      "answer": "Yes. We operate with site-specific risk assessments, trained procedures, and controlled working methods designed to minimise risk to people, property, and operations."
+      "question": "How often should a roof be cleaned?",
+      "answer": "This depends on the age of the roof, nearby trees and weather exposure, but many properties benefit from periodic cleaning every few years."
     },
     {
-      "question": "Do you offer regular maintenance contracts?",
-      "answer": "Yes. We provide both one-off cleaning and recurring maintenance plans tailored to the needs of your building and site schedule."
+      "question": "Do you offer free quotes?",
+      "answer": "Yes, Jays Roofing offers free, no-obligation quotes so you can understand the work required before booking."
     }
   ],
   "aboutParagraphs": [
-    "Aereal is a modern exterior cleaning company built around smarter access, cleaner results, and a more professional experience for commercial property owners and managers. By combining specialist drone technology with proven cleaning methods, we help clients maintain impressive-looking buildings without the limitations of traditional high-access equipment.",
-    "Our approach is designed for today’s built environment: safer on site, faster to deploy, and far less disruptive to staff, residents, visitors, and day-to-day operations. Whether you manage a multi-storey office, a residential block, or a large commercial facility, Aereal provides a streamlined service that protects both your image and your property.",
-    "Visually, the website should reflect that same standard—sleek layouts, crisp typography, generous white space, dark premium tones balanced with bright clean surfaces, subtle motion, and strong call-to-action placement throughout. The overall design direction should feel advanced, trustworthy, and technology-led while remaining approachable for commercial decision-makers."
+    "Jays Roofing is a modern roof cleaning company focused on helping homeowners improve the look and upkeep of their property with dependable, professional service.",
+    "We believe in clean presentation, honest communication and quality workmanship. Every job is approached with care, using suitable equipment and methods to achieve a smart result.",
+    "From moss removal to complete roof cleaning and gutter clearing, our aim is to deliver a polished service that makes your property look well cared for from the very first glance."
   ],
-  "ctaHeadline": "Ready to Modernise Your Building Cleaning?",
-  "ctaText": "Speak with Aereal today to arrange a quote or site survey and discover a safer, cleaner, more efficient way to maintain your property exterior.",
+  "ctaHeadline": "Give Your Roof a Cleaner, Smarter Finish",
+  "ctaText": "Get in touch with Jays Roofing today for a free quote and find out how we can refresh the appearance of your roof with a modern, professional service.",
   "colors": {
-    "primary": "#0F172A",
-    "secondary": "#1E293B",
-    "accent": "#22C7F0",
-    "surface": "#F8FAFC",
-    "muted": "#94A3B8"
+    "primary": "#1F3A5F",
+    "secondary": "#2E5B88",
+    "accent": "#7CC6D9",
+    "surface": "#F6F8FB",
+    "muted": "#7A8796"
   },
   "images": {
-    "hero": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
-    "about": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
-    "services": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=80",
-    "contact": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+    "hero": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+    "about": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+    "services": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1200&q=80",
+    "contact": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
   },
-  "logoUrl": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80"
+  "logoText": "JR"
 }

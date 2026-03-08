@@ -3,7 +3,6 @@ import SiteHeader from "../components/SiteHeader"
 import SiteFooter from "../components/SiteFooter"
 import SectionHeading from "../components/SectionHeading"
 import ServicesGrid from "../components/ServicesGrid"
-import ContactForm from "../components/ContactForm"
 import ImageSection from "../components/ImageSection"
 import { siteData } from "../lib/siteData"
  
@@ -15,7 +14,7 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <main className="bg-white text-slate-900">
-      <SiteHeader businessName={siteData.businessName} logoUrl={siteData.logoUrl} />
+      <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
  
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
@@ -41,25 +40,10 @@ export default function ServicesPage() {
         </div>
       </section>
  
-      <section
-        className="py-20"
-        style={{ backgroundColor: "var(--muted-color)" }}
-      >
-        <div className="mx-auto max-w-6xl px-6">
-          <ContactForm
-            title="Need help choosing the right service?"
-            subtitle="Tell us what you need and we’ll point you in the right direction."
-            phone={siteData.phone}
-            email={siteData.email}
-          />
-        </div>
-      </section>
- 
       <SiteFooter
         businessName={siteData.businessName}
         phone={siteData.phone}
         email={siteData.email}
-        logoUrl={siteData.logoUrl}
       />
     </main>
   )

@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import "./globals.css"
  
 export const metadata: Metadata = {
-  title: "Aereal",
-  description: "Aereal delivers safe, efficient window and building exterior cleaning for commercial properties, apartments, offices, schools, and high-access sites—without the disruption, cost, or risk of traditional access equipment."
+  title: "Jays Roofing",
+  description: "Jays Roofing delivers safe, reliable roof cleaning and exterior roof care for homes and properties that need a cleaner, smarter finish."
 }
  
 export default function RootLayout({

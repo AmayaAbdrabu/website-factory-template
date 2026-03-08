@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import SiteHeader from "../components/SiteHeader"
 import SiteFooter from "../components/SiteFooter"
 import SectionHeading from "../components/SectionHeading"
-import TrustGrid from "../components/TrustGrid"
+import TestimonialsGrid from "../components/TestimonialsGrid"
 import ImageSection from "../components/ImageSection"
 import { siteData } from "../lib/siteData"
  
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="bg-white text-slate-900">
-      <SiteHeader businessName={siteData.businessName} logoUrl={siteData.logoUrl} />
+      <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
  
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
@@ -23,24 +23,10 @@ export default function AboutPage() {
           subtitle={`Professional service in ${siteData.location} with a focus on trust, quality, and strong client relationships.`}
         />
  
-        <div className="mt-10 grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-          <div className="space-y-6 text-lg leading-8 text-slate-600">
-            {siteData.aboutParagraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </div>
- 
-          <div
-            className="rounded-2xl p-8"
-            style={{ backgroundColor: "var(--surface-color)" }}
-          >
-            <h3 className="text-2xl font-bold text-slate-900">Quick contact</h3>
-            <div className="mt-6 space-y-3 text-slate-700">
-              <p><span className="font-semibold">Phone:</span> {siteData.phone}</p>
-              <p><span className="font-semibold">Email:</span> {siteData.email}</p>
-              <p><span className="font-semibold">Location:</span> {siteData.location}</p>
-            </div>
-          </div>
+        <div className="mt-10 space-y-6 text-lg leading-8 text-slate-600">
+          {siteData.aboutParagraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
         </div>
       </section>
  
@@ -60,12 +46,12 @@ export default function AboutPage() {
  
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
-          eyebrow="Why clients choose us"
-          title="What sets our service apart"
-          subtitle="We focus on reliability, professionalism, and a better client experience."
+          eyebrow="Testimonials"
+          title="What clients say"
+          subtitle="Professional service leaves a strong impression when the experience is clear and well managed."
         />
         <div className="mt-10">
-          <TrustGrid points={siteData.trustPoints} />
+          <TestimonialsGrid testimonials={siteData.testimonials} />
         </div>
       </section>
  
@@ -73,7 +59,6 @@ export default function AboutPage() {
         businessName={siteData.businessName}
         phone={siteData.phone}
         email={siteData.email}
-        logoUrl={siteData.logoUrl}
       />
     </main>
   )

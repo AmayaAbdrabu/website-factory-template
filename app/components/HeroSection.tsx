@@ -5,7 +5,6 @@ type HeroProps = {
   primaryCta: string
   secondaryCta: string
   phone: string
-  services: { title: string; description: string }[]
   heroImage: string
 }
  
@@ -16,7 +15,6 @@ export default function HeroSection({
   primaryCta,
   secondaryCta,
   phone,
-  services,
   heroImage,
 }: HeroProps) {
   return (
@@ -27,11 +25,9 @@ export default function HeroSection({
       />
       <div className="absolute inset-0 bg-slate-950/75" />
  
-      <div className="relative mx-auto grid max-w-6xl gap-10 px-6 py-24 lg:grid-cols-2">
-        <div>
-          <span
-            className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-semibold"
-          >
+      <div className="relative mx-auto max-w-6xl px-6 py-24">
+        <div className="max-w-3xl">
+          <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-semibold">
             {badge}
           </span>
  
@@ -53,41 +49,6 @@ export default function HeroSection({
               {secondaryCta}
             </a>
           </div>
- 
-          <div className="mt-10 grid gap-3 text-sm text-slate-200 md:grid-cols-3">
-            {services.slice(0, 3).map((service) => (
-              <div
-                key={service.title}
-                className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur"
-              >
-                {service.title}
-              </div>
-            ))}
-          </div>
-        </div>
- 
-        <div className="rounded-2xl bg-white p-6 text-slate-900 shadow-2xl">
-          <h3 className="text-2xl font-bold">Quick enquiry</h3>
-          <p className="mt-2 text-sm text-slate-600">
-            Tell us what you need and our team will get back to you promptly.
-          </p>
- 
-          <form className="mt-6 grid gap-4">
-            <input className="rounded-lg border px-4 py-3" placeholder="Full name" />
-            <input className="rounded-lg border px-4 py-3" placeholder="Phone number" />
-            <input className="rounded-lg border px-4 py-3" placeholder="Email" />
-            <textarea
-              className="min-h-[120px] rounded-lg border px-4 py-3"
-              placeholder="How can we help?"
-            />
-            <button
-              type="button"
-              className="rounded-lg px-5 py-3 font-semibold text-white"
-              style={{ backgroundColor: "var(--accent-color)" }}
-            >
-              Send enquiry
-            </button>
-          </form>
         </div>
       </div>
     </section>

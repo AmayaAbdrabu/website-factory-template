@@ -4,11 +4,7 @@ import SiteFooter from "./components/SiteFooter"
 import SectionHeading from "./components/SectionHeading"
 import HeroSection from "./components/HeroSection"
 import ServicesGrid from "./components/ServicesGrid"
-import TrustGrid from "./components/TrustGrid"
-import TestimonialsGrid from "./components/TestimonialsGrid"
-import FAQSection from "./components/FAQSection"
 import ContactForm from "./components/ContactForm"
-import ImageSection from "./components/ImageSection"
 import { siteData } from "./lib/siteData"
  
 export const metadata: Metadata = {
@@ -19,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="bg-white text-slate-900">
-      <SiteHeader businessName={siteData.businessName} logoUrl={siteData.logoUrl} />
+      <SiteHeader businessName={siteData.businessName} logoText={siteData.logoText} />
  
       <HeroSection
         badge={siteData.badge}
@@ -28,69 +24,17 @@ export default function Home() {
         primaryCta={siteData.primaryCta}
         secondaryCta={siteData.secondaryCta}
         phone={siteData.phone}
-        services={siteData.services}
         heroImage={siteData.images.hero}
       />
  
       <section className="mx-auto max-w-6xl px-6 py-20">
-        <ImageSection
-          title={`Why clients choose ${siteData.businessName}`}
-          subtitle="We focus on a better client experience, strong communication, and a polished professional result."
-          imageUrl={siteData.images.about}
-        />
-      </section>
- 
-      <section
-        className="py-20"
-        style={{ backgroundColor: "var(--muted-color)" }}
-      >
-        <div className="mx-auto max-w-6xl px-6">
-          <SectionHeading
-            eyebrow="Our services"
-            title={`Professional services from ${siteData.businessName}`}
-            subtitle={`Trusted support across ${siteData.location} with a strong focus on quality, communication, and fast turnaround.`}
-          />
-          <div className="mt-10">
-            <ServicesGrid services={siteData.services} />
-          </div>
-        </div>
-      </section>
- 
-      <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
-          eyebrow="Why choose us"
-          title="Built on trust, quality, and consistency"
-          subtitle="We focus on clear communication, practical solutions, and a professional client experience."
+          eyebrow="Our services"
+          title={`Professional services from ${siteData.businessName}`}
+          subtitle={`Trusted support across ${siteData.location} with a strong focus on quality, communication, and fast turnaround.`}
         />
         <div className="mt-10">
-          <TrustGrid points={siteData.trustPoints} />
-        </div>
-      </section>
- 
-      <section
-        className="py-20"
-        style={{ backgroundColor: "var(--surface-color)" }}
-      >
-        <div className="mx-auto max-w-6xl px-6">
-          <SectionHeading
-            eyebrow="Client feedback"
-            title="What clients value most"
-            subtitle="The qualities that help businesses stand out are consistency, professionalism, and trust."
-          />
-          <div className="mt-10">
-            <TestimonialsGrid testimonials={siteData.testimonials} />
-          </div>
-        </div>
-      </section>
- 
-      <section className="mx-auto max-w-6xl px-6 py-20">
-        <SectionHeading
-          eyebrow="FAQs"
-          title="Common questions"
-          subtitle="Helpful answers to the questions clients often ask before getting started."
-        />
-        <div className="mt-10">
-          <FAQSection faqs={siteData.faqs} />
+          <ServicesGrid services={siteData.services} />
         </div>
       </section>
  
@@ -108,11 +52,30 @@ export default function Home() {
         </div>
       </section>
  
+      <section className="mx-auto max-w-6xl px-6 py-20">
+        <div
+          className="rounded-3xl p-10 text-white"
+          style={{
+            background: "linear-gradient(135deg, var(--primary-color), var(--secondary-color))"
+          }}
+        >
+          <h2 className="text-3xl font-bold">{siteData.ctaHeadline}</h2>
+          <p className="mt-3 max-w-2xl text-white/85">
+            {siteData.ctaText}
+          </p>
+          <a
+            href="/contact"
+            className="mt-6 inline-flex rounded-lg bg-white px-5 py-3 font-semibold text-slate-900"
+          >
+            Go to Contact Page
+          </a>
+        </div>
+      </section>
+ 
       <SiteFooter
         businessName={siteData.businessName}
         phone={siteData.phone}
         email={siteData.email}
-        logoUrl={siteData.logoUrl}
       />
     </main>
   )
